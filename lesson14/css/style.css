@@ -1,0 +1,48 @@
+article p{
+    background-color: rgb(163, 238, 240);
+    color: #463737;
+    padding: 20px;
+}
+
+article > p{
+ background-color: rgb(13, 153, 172);
+}
+
+article ~p{
+    background-color: purple;
+     color: #463737;
+      padding: 20px;
+}
+
+article + p{
+    background-color: rgb(219, 119, 144);
+    color: #463737;
+    padding: 20px;
+}
+
+input:out-of-range{
+    border: 15px solid red;
+}
+ span:first-of-type{
+    background:rgb(163, 42, 109) ;
+    color: rgb(196, 193, 193);
+    padding: 10px;
+ }
+
+ form{
+    padding: 20px;
+ }
+
+ input:valid {
+
+border: 2px solid green;
+ }
+  input:valid {
+
+border: 2px solid rgb(57, 219, 179);
+ }
+
+
+div{
+    opacity: 0.1;
+}
