@@ -1,0 +1,92 @@
+.countainer{
+    display: flex;
+    background: rgb(184, 144, 221);
+}
+
+.countainer div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+}
+
+.countainer2{
+    display: flex;
+    background: rgb(184, 144, 221);
+     flex-direction: column;
+}
+
+.countainer2 div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+}
+
+.countainer3{
+    display: flex;
+    background: rgb(115, 183, 247);
+    flex-direction: column;
+}
+
+.countainer3 div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+}
+
+.countainer4{
+    display: flex;
+    background: rgb(163, 38, 132);
+    flex-direction: column;
+}
+
+.countainer4 div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+}
+
+.countainer4 div:nth-child(1){
+    flex-grow: 4;
+}
+
+.countainer5{
+    display: flex;
+    background: rgb(163, 38, 132);
+    flex-direction: row-reverse;
+     justify-content: space-evenly;
+}
+
+.countainer5 div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+
+}
+.countainer6{
+    display: flex;
+    background: rgb(163, 38, 132);
+    flex-direction: row;
+     justify-content: space-evenly
+}
+
+.countainer6 div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+
+}
+
+.countainer7{
+    display: flex;
+    background: rgb(163, 38, 132);
+    flex-direction: row;
+     justify-content: space-evenly;
+    flex-wrap: flex-end;
+}
+
+.countainer7 div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+
+}
