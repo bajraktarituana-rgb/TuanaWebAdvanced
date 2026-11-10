@@ -1,0 +1,55 @@
+
+@media(min-width:600px){
+
+    body{
+        background-color: rgb(122, 192, 192);
+        color: white;
+    }
+
+}
+
+@media all and (max-width:600px){
+
+    body{
+        background-color: rgb(198, 143, 235);
+        color: white;
+    }
+
+}
+
+h1{
+    border: 2px solid white;
+    padding: 10px;
+}
+
+@media all and (orientation: landscape){
+font-size: 80px;
+
+}
+
+@media all and (orientation: portrait){
+
+font-size: 10px;
+
+}
+
+@media all and (min-width:600px) and( max-width:900px){
+  img{
+     display: none
+  }
+}
+@media(min-width:600px){
+    p{
+        column-count: 2
+    }
+}
+
+@media print{
+
+    body{
+        background-color:transparent
+    
+    }
+
+}
+
